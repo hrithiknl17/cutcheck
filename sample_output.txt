@@ -1,0 +1,13 @@
+
+broken.mp4  (7.00s)
+
+  00:02.00-00:03.00  error    black-frames         1.00s of black frames mid-video.
+  00:02.00-00:03.50  warning  silence              1.50s of silence mid-video (dropped audio?).
+  00:03.50-00:05.50  warning  frozen-frames        Picture frozen for 2.00s (stalled render or held frame?).
+                     error    av-length-mismatch   Audio and video lengths differ by 1.50s (video 7.00s, audio 5.50s); likely sync drift or a cut track.
+                     error    aspect-ratio         1280x720 is not 9:16, which reels expects.
+                     error    clipping-risk        True peak 0.7 dBTP is above -1.0 dBTP; it will likely clip after platform transcoding.
+                     warning  loudness             Integrated loudness -2.4 LUFS is too loud for reels (target -14 LUFS).
+
+  4 error(s), 3 warning(s)
+
